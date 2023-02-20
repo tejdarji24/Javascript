@@ -4,12 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Practice</title>    
+    <title>Javascript Practice</title>   
+    <link rel="icon"  href="images/file-formats.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     
+    <!-- CreateElement Custom -->
     <h1 id="header"></h1>
+ 
+    <!-- Tabbing Structure -->
+    <div class="tech-tabbing-main">
+        <div class="tech-name">
+            <span class="tab-content active" data-id="mobile">Mobile</span>
+            <span class="tab-content" data-id="frontend">Front End</span>
+            <span class="tab-content" data-id="database">Database</span>
+            <span class="tab-content" data-id="backend">Backend</span>
+            <span class="tab-content" data-id="cms">CMS</span>
+            <span class="tab-content" data-id="devops">Infra and DevOps</span>
+        </div>
+        <div class="contentWrapper">
+            <div class="tech-social active" id="mobile">
+                <div class="tech-img">
+                    <img src="images/logos_swift.png" alt="">
+                </div>
+                <div class="tech-img">
+                    <img src="images/logos_flutter.png" alt="">
+                </div>
+                <div class="tech-img">
+                    <img src="images/logos_kotlin.png" alt="">
+                </div>
+                <div class="tech-img">
+                    <img src="images/flat-color-icons_android-os.png" alt="">
+                </div>
+                <div class="tech-img">
+                    <img src="images/Group.png" alt="">
+                </div>
+            </div>
+            <div class="tech-social" id="frontend">
+                <div class="tech-img">
+                    <img src="images/flat-color-icons_android-os.png" alt="">
+                </div>
+                <div class="tech-img">
+                    <img src="images/Group.png" alt="">
+                </div>
+                <div class="tech-img">
+                    <img src="images/logos_swift.png" alt="">
+                </div>
+                <div class="tech-img">
+                    <img src="images/logos_flutter.png" alt="">
+                </div>
+            </div>
+        </div>
 
-    <script src="script.js"></script>
+    <script src="createElement.js"></script>
+    <script src="tabbing.js"></script>
 </body>
 </html>

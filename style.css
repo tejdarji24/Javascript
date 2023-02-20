@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+span.tab-content {
+    padding: 0 10px;
+}
+.tech-name {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.tech-social.active {
+    display: flex;
+    grid-gap: 20px;
+}
+.tech-social {
+    display: none;
+}
+.tech-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
